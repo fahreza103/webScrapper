@@ -1,0 +1,24 @@
+{
+  "name": "cermati",
+  "version": "1.0.0",
+  "description": "cermati-scrapping-web",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "node ./src/app"
+  },
+  "author": "fahreza tamara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.1.0",
+    "express": "~4.14.0",
+    "morgan": "^1.9.0",
+    "request-promise": "^4.2.2",
+    "request": "^2.87.0"
+  }
+}
