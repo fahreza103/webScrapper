@@ -4,8 +4,8 @@
 
 1. > $ npm install / $ yarn install
 
-2. > $ npm start / $ yarn start
+2. Go into src folder
 
-3. Application will be running on <http://localhost:8080>
+3. execute node solution.js
 
-4. run http://localhost:8080/api/v1/scrapping
+4. If success, it will generate output.json file
